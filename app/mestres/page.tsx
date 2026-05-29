@@ -25,7 +25,7 @@ const MESTRES: Mestre[] = [
     foto: '/images/joe-sensei.jpg',
     fotoAlt: 'Joe Rosario-Sensei',
     texto:
-      'Fisioterapeuta, Osteopata, Quiropraxista, Naturopata e Acupunturista, faixa preta em Muay Thai, praticante de artes marciais desde criança, tinha interesse em artes marciais internas para aprofundar os conhecimentos em Medicina Tradicional Chinesa. Ao encontrar Fukushima-Sensei foi derrotado em Kumitê (luta) e começou seu treinamento em Taikiken há mais de 20 anos. Aprendeu também com seu mestre Chi Kung Médico (Kikou) e Nishino Ryu Kokyu Hou. Hoje ensina no Porto, em Vila Nova de Gaia.',
+      'Fisioterapeuta, Osteopata, Quiropraxista, Acupunturista, Naturopata, Homeopata e Fitoterapeuta, pesquisador com dois doutorados (PhD) e pós-doutorado, faixa preta em Muay Thai, praticante de artes marciais desde criança, tinha interesse em artes marciais internas para aprofundar os conhecimentos em Medicina Tradicional Chinesa. Ao encontrar Fukushima-Sensei foi derrotado em Kumitê (luta) e começou seu treinamento em Taikiken há mais de 20 anos. Aprendeu também com seu mestre Chi Kung Médico (Kikou) e Nishino Ryu Kokyu Hou. Hoje ensina no Porto, em Vila Nova de Gaia.',
   },
   {
     nome: 'Masamichi Fukushima-Sensei',
