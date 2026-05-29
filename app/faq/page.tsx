@@ -75,16 +75,26 @@ export default function FaqPage() {
       />
 
       <div className="container max-w-prose py-20 md:py-24">
-        <dl className="space-y-12">
-          {FAQ.map((qa, i) => (
-            <Reveal key={qa.pergunta} delay={i % 3 === 0 ? 0 : (i % 3) * 100}>
-              <div className="border-t border-border pt-6">
-                <dt className="font-serif text-2xl leading-snug">{qa.pergunta}</dt>
-                <dd className="mt-3 text-lg leading-relaxed text-muted-foreground">{qa.resposta}</dd>
-              </div>
-            </Reveal>
-          ))}
-        </dl>
+        <Reveal>
+          <div className="border-t border-border">
+            {FAQ.map((qa) => (
+              <details key={qa.pergunta} className="group border-b border-border">
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 py-5 font-serif text-xl leading-snug transition-colors hover:text-accent md:text-2xl [&::-webkit-details-marker]:hidden">
+                  <span>{qa.pergunta}</span>
+                  <span
+                    aria-hidden="true"
+                    className="kanji shrink-0 text-2xl text-accent transition-transform duration-300 group-open:rotate-45"
+                  >
+                    ＋
+                  </span>
+                </summary>
+                <p className="-mt-1 pb-6 pr-8 text-lg leading-relaxed text-muted-foreground">
+                  {qa.resposta}
+                </p>
+              </details>
+            ))}
+          </div>
+        </Reveal>
 
         <Reveal>
           <div className="mt-16 border-t border-border pt-10 text-center">
