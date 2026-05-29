@@ -20,6 +20,9 @@ export function SiteFooter() {
           <Link href="/videos" className="hover:text-accent">
             Vídeos
           </Link>
+          <Link href="/faq" className="hover:text-accent">
+            Dúvidas
+          </Link>
           <Link href="/contacto" className="hover:text-accent">
             Contacto
           </Link>

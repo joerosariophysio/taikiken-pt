@@ -7,6 +7,7 @@ const NAV = [
   { href: '/o-que-e', label: 'O que é' },
   { href: '/mestres', label: 'Mestres' },
   { href: '/videos', label: 'Vídeos' },
+  { href: '/faq', label: 'Dúvidas' },
   { href: '/contacto', label: 'Contacto' },
 ]
 

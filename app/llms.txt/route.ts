@@ -16,6 +16,7 @@ export function GET(): Response {
           { url: '/o-que-e', label: 'O que é Taikiken' },
           { url: '/mestres', label: 'Mestres (Sawai-Sensei, Takagi-Sensei, Fukushima-Sensei, Joe Rosario-Sensei)' },
           { url: '/videos', label: 'Vídeos (demonstrações de Takagi-Sensei)' },
+          { url: '/faq', label: 'Perguntas frequentes (combate vs saúde, pré-requisitos, onde, preço)' },
           { url: '/contacto', label: 'Contacto' },
         ],
       },
