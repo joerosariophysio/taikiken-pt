@@ -3,10 +3,14 @@ import type { Metadata } from 'next'
 import { PageHero } from '@/components/page-hero'
 import { Reveal } from '@/components/ornaments'
 
+const DESC =
+  'O Taikiken (太氣拳), uma arte marcial japonesa com raízes profundas na filosofia oriental. História do Mestre Kenichi Sawai e do Yiquan de Sifu Wang Xiangzhai.'
+
 export const metadata: Metadata = {
   title: 'O que é Taikiken',
-  description:
-    'O Taikiken (太氣拳), uma arte marcial japonesa com raízes profundas na filosofia oriental. História do Mestre Kenichi Sawai e do Yiquan de Sifu Wang Xiangzhai.',
+  description: DESC,
+  alternates: { canonical: '/o-que-e' },
+  openGraph: { title: 'O que é Taikiken', description: DESC, url: '/o-que-e' },
 }
 
 export default function OQueEPage() {

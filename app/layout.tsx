@@ -44,6 +44,21 @@ export const metadata: Metadata = {
     'Sawai-Sensei',
     'Fukushima-Sensei',
   ],
+  openGraph: {
+    type: 'website',
+    locale: 'pt_PT',
+    siteName,
+    url: siteUrl,
+    title: siteName,
+    description:
+      'Taikiken (太氣拳) em Portugal — arte marcial interna ensinada por Joe Rosario-Sensei no Porto e Vila Nova de Gaia.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteName,
+    description:
+      'Taikiken (太氣拳) em Portugal — arte marcial interna ensinada por Joe Rosario-Sensei no Porto e Vila Nova de Gaia.',
+  },
 }
 
 export const viewport: Viewport = {

@@ -4,10 +4,18 @@ import type { Metadata } from 'next'
 import { organizationJsonLd, personJsonLd } from '@/lib/seo'
 import { BrushDivider, Enso, Hanko, Reveal } from '@/components/ornaments'
 
+const DESC =
+  'O Taikiken (太氣拳), uma arte marcial interna que trabalha o fluxo de energia ou Ki (氣). Ensinada por Joe Rosario-Sensei no Porto e Vila Nova de Gaia.'
+
 export const metadata: Metadata = {
   title: 'Taikiken Portugal — Arte Marcial Interna no Porto',
-  description:
-    'O Taikiken (太氣拳), uma arte marcial interna que trabalha o fluxo de energia ou Ki (氣). Ensinada por Joe Rosario-Sensei no Porto e Vila Nova de Gaia.',
+  description: DESC,
+  alternates: { canonical: '/' },
+  openGraph: {
+    title: 'Taikiken Portugal — Arte Marcial Interna no Porto',
+    description: DESC,
+    url: '/',
+  },
 }
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://taikiken.pt'

@@ -3,10 +3,14 @@ import type { Metadata } from 'next'
 import { PageHero } from '@/components/page-hero'
 import { Reveal } from '@/components/ornaments'
 
+const DESC =
+  'Linhagem do Taikiken: Sawai-Sensei, Takagi-Sensei, Fukushima-Sensei e Joe Rosario-Sensei (instrutor em Portugal).'
+
 export const metadata: Metadata = {
   title: 'Mestres',
-  description:
-    'Linhagem do Taikiken: Sawai-Sensei, Takagi-Sensei, Fukushima-Sensei e Joe Rosario-Sensei (instrutor em Portugal).',
+  description: DESC,
+  alternates: { canonical: '/mestres' },
+  openGraph: { title: 'Mestres do Taikiken', description: DESC, url: '/mestres' },
 }
 
 type Mestre = {

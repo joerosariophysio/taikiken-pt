@@ -2,22 +2,31 @@ import type { Metadata } from 'next'
 import { PageHero } from '@/components/page-hero'
 import { Reveal } from '@/components/ornaments'
 
+const DESC =
+  'Fale conosco — Taikiken Portugal. Aulas no Porto, em Vila Nova de Gaia, próximo ao Metro Dom João II.'
+
 export const metadata: Metadata = {
   title: 'Contacto',
-  description:
-    'Fale conosco — Taikiken Portugal. Aulas no Porto, em Vila Nova de Gaia, próximo ao Metro Dom João II.',
+  description: DESC,
+  alternates: { canonical: '/contacto' },
+  openGraph: { title: 'Contacto — Taikiken Portugal', description: DESC, url: '/contacto' },
 }
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://taikiken.pt'
 
 const localBusiness = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
+  '@type': 'SportsActivityLocation',
+  '@id': `${SITE_URL}/#dojo`,
   name: 'Taikiken Portugal',
-  description: 'Aulas de Taikiken (arte marcial interna japonesa) em Portugal.',
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://taikiken.pt',
+  description: 'Aulas presenciais de Taikiken (arte marcial interna japonesa) no Porto e Vila Nova de Gaia, com Joe Rosario-Sensei.',
+  url: SITE_URL,
+  image: `${SITE_URL}/opengraph-image.jpg`,
   email: 'joerosariosensei@gmail.com',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Vila Nova de Gaia',
+    addressRegion: 'Porto',
     addressCountry: 'PT',
   },
   areaServed: ['Porto', 'Vila Nova de Gaia', 'Portugal'],

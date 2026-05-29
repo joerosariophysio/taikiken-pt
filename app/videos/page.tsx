@@ -2,10 +2,14 @@ import type { Metadata } from 'next'
 import { PageHero } from '@/components/page-hero'
 import { Reveal } from '@/components/ornaments'
 
+const DESC =
+  'Demonstrações de Toishou (Pushing Hands) e Menarachi Kumite pelo Takagi-Sensei — escola Shiseijuku.'
+
 export const metadata: Metadata = {
   title: 'Vídeos',
-  description:
-    'Demonstrações de Toishou (Pushing Hands) e Menarachi Kumite pelo Takagi-Sensei — escola Shiseijuku.',
+  description: DESC,
+  alternates: { canonical: '/videos' },
+  openGraph: { title: 'Vídeos de Taikiken', description: DESC, url: '/videos' },
 }
 
 type Video = { id: string; titulo: string }
