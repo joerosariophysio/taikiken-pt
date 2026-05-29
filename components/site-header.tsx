@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
@@ -30,7 +29,12 @@ export function SiteHeader() {
           aria-label="Taikiken Portugal — início"
           onClick={() => setOpen(false)}
         >
-          <Image src="/images/logo.png" alt="" width={36} height={36} priority className="h-9 w-9" />
+          <span
+            aria-hidden="true"
+            className="kanji flex h-9 w-9 items-center justify-center rounded-[3px] bg-accent text-xl leading-none text-accent-foreground shadow-[inset_0_0_0_1px_rgba(255,255,255,0.35)]"
+          >
+            氣
+          </span>
           <span className="font-serif text-2xl tracking-tight">Taikiken</span>
           <span className="kanji text-xl text-muted-foreground transition-colors group-hover:text-accent">
             太氣拳

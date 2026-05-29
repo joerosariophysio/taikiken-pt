@@ -67,7 +67,7 @@ export default function OQueEPage() {
               Foi durante uma visita à China que Sawai-Sensei, militar e lutador imbatível, foi
               finalmente vencido em combate por quem seria seu futuro mestre. Sifu Wang Xiangzhai,
               fundador do I Chuan ou “Boxe da Mente”, o aceitou como aluno. Essa experiência
-              enriqueceu sua compreensão das filosofias e práticas subjacentes as artes marciais
+              enriqueceu sua compreensão das filosofias e práticas subjacentes às artes marciais
               internas, que enfatizam a conexão entre o corpo, a mente e a energia vital, usado tanto
               para saúde, batalha e tratamento.
             </p>

@@ -14,7 +14,7 @@ const localBusiness = {
   name: 'Taikiken Portugal',
   description: 'Aulas de Taikiken (arte marcial interna japonesa) em Portugal.',
   url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://taikiken.pt',
-  email: 'taikiken@mail.com',
+  email: 'joerosariosensei@gmail.com',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Vila Nova de Gaia',
@@ -49,16 +49,16 @@ export default function ContactoPage() {
             <div className="space-y-2">
               <h2 className="text-xs uppercase tracking-[0.2em] text-accent">E-mail</h2>
               <a
-                href="mailto:taikiken@mail.com"
+                href="mailto:joerosariosensei@gmail.com"
                 className="font-serif text-2xl transition-colors hover:text-accent"
               >
-                taikiken@mail.com
+                joerosariosensei@gmail.com
               </a>
             </div>
 
             <div>
               <a
-                href="mailto:taikiken@mail.com"
+                href="mailto:joerosariosensei@gmail.com"
                 className="inline-flex items-center bg-accent px-7 py-3.5 text-sm uppercase tracking-[0.2em] text-accent-foreground transition-transform hover:-translate-y-0.5"
               >
                 Enviar e-mail

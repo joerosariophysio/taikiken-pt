@@ -25,7 +25,7 @@ const MESTRES: Mestre[] = [
     foto: '/images/joe-sensei.jpg',
     fotoAlt: 'Joe Rosario-Sensei',
     texto:
-      'Fisioterapeuta, Osteopata, Quiropraxista, Naturapata e Acupunturista, faixa preta em Muay Thai, praticante de artes marciais desde criança, tinha interesse em artes marciais internas para aprofundar os conhecimentos em Medicina Tradicional Chinesa. Ao encontrar Fukushima-Sensei foi derrotado em Kumitê (luta) e começou seu treinamento em Taikiken há mais de 20 anos. Aprendeu também com seu mestre Chi Kung Médico (Kikou) e Nishino Ryu Kokyu Hou. Hoje ensina no Porto, em Vila Nova de Gaia.',
+      'Fisioterapeuta, Osteopata, Quiropraxista, Naturopata e Acupunturista, faixa preta em Muay Thai, praticante de artes marciais desde criança, tinha interesse em artes marciais internas para aprofundar os conhecimentos em Medicina Tradicional Chinesa. Ao encontrar Fukushima-Sensei foi derrotado em Kumitê (luta) e começou seu treinamento em Taikiken há mais de 20 anos. Aprendeu também com seu mestre Chi Kung Médico (Kikou) e Nishino Ryu Kokyu Hou. Hoje ensina no Porto, em Vila Nova de Gaia.',
   },
   {
     nome: 'Masamichi Fukushima-Sensei',
@@ -33,7 +33,7 @@ const MESTRES: Mestre[] = [
     foto: '/images/fukushima-sensei.jpg',
     fotoAlt: 'Masamichi Fukushima-Sensei',
     texto:
-      'Desde a infância, pratica a arte marcial japonesa, tais como kendô, Shorinji kenpo, karatê de Shoutoukan, karatê Kyokushin. Dedica-se integralmente por decadas ao ensino e à prática de Taiki-ken, Respiração por método Nishino (Kokuy Hou), Tsukeikou (Kikou Médico), Zenmitsu Kikou (Kikou Budista de seita Mikkyo), Quiropraxia do estilo Imoto, U-shiki Sui-na (Sui-na estilo U). Atualmente, 5 Dan de Taikien, ensina em São Paulo, Brasil, buscando atingir o estágio limite de Ki e Bujutsu.',
+      'Desde a infância, pratica a arte marcial japonesa, tais como kendô, Shorinji kenpo, karatê de Shoutoukan, karatê Kyokushin. Dedica-se integralmente por décadas ao ensino e à prática de Taiki-ken, Respiração por método Nishino (Kokyu Hou), Tsukeikou (Kikou Médico), Zenmitsu Kikou (Kikou Budista de seita Mikkyo), Quiropraxia do estilo Imoto, U-shiki Sui-na (Sui-na estilo U). Atualmente, 5 Dan de Taikiken, ensina em São Paulo, Brasil, buscando atingir o estágio limite de Ki e Bujutsu.',
   },
   {
     nome: 'Yasuhide Takagi-Sensei',

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="9" fill="#A23E2C" />
+  <rect x="3.5" y="3.5" width="57" height="57" rx="6.5" fill="none" stroke="#F5F1E8" stroke-opacity="0.35" stroke-width="1.5" />
+  <text x="32" y="35" text-anchor="middle" dominant-baseline="central" fill="#F5F1E8" font-size="46" font-family="'Hiragino Mincho ProN','Yu Mincho','Songti SC','Noto Serif JP','Noto Serif CJK JP',serif">氣</text>
+</svg>
