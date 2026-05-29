@@ -1,4 +1,4 @@
-import { buildLlmsTxt } from '@joerosariophysio/site-toolkit/llms-txt'
+import { buildLlmsTxt } from '@/lib/llms-txt'
 
 export const dynamic = 'force-static'
 

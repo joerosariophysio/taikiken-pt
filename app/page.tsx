@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { organizationJsonLd, personJsonLd } from '@joerosariophysio/site-toolkit/seo'
+import { organizationJsonLd, personJsonLd } from '@/lib/seo'
 import { BrushDivider, Enso, Hanko, Reveal } from '@/components/ornaments'
 
 export const metadata: Metadata = {

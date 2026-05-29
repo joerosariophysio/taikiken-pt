@@ -4,7 +4,7 @@ import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 import { SiteHeader } from '@/components/site-header'
 import { SiteFooter } from '@/components/site-footer'
-import { CookieBanner } from '@joerosariophysio/site-toolkit/cookie-banner'
+import { CookieBanner } from '@/components/cookie-banner'
 
 const inter = Inter({
   subsets: ['latin'],

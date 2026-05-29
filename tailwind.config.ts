@@ -5,8 +5,8 @@ const config: Config = {
   content: [
     './app/**/*.{ts,tsx,mdx}',
     './components/**/*.{ts,tsx}',
+    './lib/**/*.{ts,tsx}',
     './content/**/*.{md,mdx}',
-    '../../02-toolkit/dist/**/*.{js,mjs}',
   ],
   theme: {
     container: {
