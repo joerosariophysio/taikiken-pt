@@ -4,7 +4,6 @@ import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 import { SiteHeader } from '@/components/site-header'
 import { SiteFooter } from '@/components/site-footer'
-import { WhatsAppButton } from '@/components/whatsapp-button'
 import { CookieBanner } from '@joerosariophysio/site-toolkit/cookie-banner'
 
 const inter = Inter({
@@ -42,8 +41,8 @@ export const metadata: Metadata = {
     'Porto',
     'Vila Nova de Gaia',
     'Joe Rosario-Sensei',
-    'Sawai Sensei',
-    'Fukushima Sensei',
+    'Sawai-Sensei',
+    'Fukushima-Sensei',
   ],
 }
 
@@ -69,7 +68,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
-        <WhatsAppButton />
         <CookieBanner
           privacyPolicyHref="/privacidade"
           strings={{

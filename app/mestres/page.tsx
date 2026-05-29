@@ -6,7 +6,7 @@ import { Reveal } from '@/components/ornaments'
 export const metadata: Metadata = {
   title: 'Mestres',
   description:
-    'Linhagem do Taikiken: Sawai Sensei, Takagi Sensei, Fukushima Sensei e Joe Rosario-Sensei (instrutor em Portugal).',
+    'Linhagem do Taikiken: Sawai-Sensei, Takagi-Sensei, Fukushima-Sensei e Joe Rosario-Sensei (instrutor em Portugal).',
 }
 
 type Mestre = {
@@ -41,7 +41,7 @@ const MESTRES: Mestre[] = [
     foto: '/images/takagi-sensei.jpg',
     fotoAlt: 'Yasuhide Takagi-Sensei',
     texto:
-      'Takagi Sensei é o mais forte da segunda geração de alunos de Sawai Sensei. Era constantemente campeão dos kumites (lutas) promovidas por Sawai Sensei. Extremamente dedicado, fundador da escola de Taikiken Shiseijuku é um dos grandes expoentes das artes marciais do nosso tempo. É um dos pouquíssimos 7º Dan Kyoshi de Taikiken do mundo. Com 70 anos de idade, continua lutando e é um lutador extremamente habilidoso.',
+      'Takagi-Sensei é o mais forte da segunda geração de alunos de Sawai-Sensei. Era constantemente campeão dos kumites (lutas) promovidas por Sawai-Sensei. Extremamente dedicado, fundador da escola de Taikiken Shiseijuku é um dos grandes expoentes das artes marciais do nosso tempo. É um dos pouquíssimos 7º Dan Kyoshi de Taikiken do mundo. Com 70 anos de idade, continua lutando e é um lutador extremamente habilidoso.',
   },
   {
     nome: 'Kenichi Sawai-Sensei',
@@ -50,7 +50,7 @@ const MESTRES: Mestre[] = [
     foto: '/images/sawai-sensei.jpg',
     fotoAlt: 'Kenichi Sawai-Sensei (1902–1988)',
     texto:
-      'Sawai Sensei aos 22 anos já era 5º Dan em Judo, 4º Dan em Kendo, 4º Dan em Iaido. Coronel japonês, serviu seu país na China onde lutou contra vários oponentes e sempre foi vitorioso até encontrar o Grão-Mestre Wang Xiangzhai (1885-1963), criador do Yi Chuan ou Yiquan em 1932. Mesmo com toda sua experiência, Sawai Sensei foi rapidamente e facilmente derrotado, resultando em total dedicação aos ensinamentos do mestre Wang Xiangzhai. Em 1947, com a bênção de seu mestre ele fundou o Taikiken.',
+      'Sawai-Sensei aos 22 anos já era 5º Dan em Judo, 4º Dan em Kendo, 4º Dan em Iaido. Coronel japonês, serviu seu país na China onde lutou contra vários oponentes e sempre foi vitorioso até encontrar o Sifu Wang Xiangzhai (1885-1963), criador do Yi Chuan ou Yiquan em 1932. Mesmo com toda sua experiência, Sawai-Sensei foi rapidamente e facilmente derrotado, resultando em total dedicação aos ensinamentos do Sifu Wang Xiangzhai. Em 1947, com a bênção de seu mestre ele fundou o Taikiken.',
   },
 ]
 
@@ -62,7 +62,7 @@ export default function MestresPage() {
         hanko="師"
         eyebrow="Linhagem"
         title="Mestres"
-        subtitle="A linhagem viva do Taikiken — quatro gerações, de Sawai a Joe Rosario-Sensei."
+        subtitle="A linhagem viva do Taikiken — quatro gerações, de Sawai-Sensei a Joe Rosario-Sensei."
       />
 
       <div className="container max-w-4xl py-20 md:py-24">

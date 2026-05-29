@@ -6,7 +6,7 @@ import { Reveal } from '@/components/ornaments'
 export const metadata: Metadata = {
   title: 'O que é Taikiken',
   description:
-    'O Taikiken (太氣拳), uma arte marcial japonesa com raízes profundas na filosofia oriental. História do Mestre Kenichi Sawai e do Yiquan de Wang Xiangzhai.',
+    'O Taikiken (太氣拳), uma arte marcial japonesa com raízes profundas na filosofia oriental. História do Mestre Kenichi Sawai e do Yiquan de Sifu Wang Xiangzhai.',
 }
 
 export default function OQueEPage() {
@@ -56,16 +56,16 @@ export default function OQueEPage() {
 
         <Reveal>
           <div className="space-y-6 text-lg leading-relaxed">
-            <h2 className="pt-2 font-serif text-3xl">Sawai Sensei</h2>
+            <h2 className="pt-2 font-serif text-3xl">Sawai-Sensei</h2>
             <p>
-              Sawai Sensei nasceu em 1902 em Tóquio, Japão, e desde jovem demonstrou grande
-              interesse em artes marciais. Sawai Sensei começou sua jornada no mundo das artes
+              Sawai-Sensei nasceu em 1902 em Tóquio, Japão, e desde jovem demonstrou grande
+              interesse em artes marciais. Sawai-Sensei começou sua jornada no mundo das artes
               marciais praticando Kendo, Karate e Judo, mas sua busca pela compreensão mais profunda
               do corpo humano e da mente o levou a explorar as tradições chinesas, como o I Chuan.
             </p>
             <p>
-              Foi durante uma visita à China que Sawai Sensei, militar e lutador imbatível, foi
-              finalmente vencido em combate por quem seria seu futuro mestre. Metre Wang Xiangzhai,
+              Foi durante uma visita à China que Sawai-Sensei, militar e lutador imbatível, foi
+              finalmente vencido em combate por quem seria seu futuro mestre. Sifu Wang Xiangzhai,
               fundador do I Chuan ou “Boxe da Mente”, o aceitou como aluno. Essa experiência
               enriqueceu sua compreensão das filosofias e práticas subjacentes as artes marciais
               internas, que enfatizam a conexão entre o corpo, a mente e a energia vital, usado tanto
@@ -93,13 +93,13 @@ export default function OQueEPage() {
           <div className="space-y-6 text-lg leading-relaxed">
             <h2 className="pt-2 font-serif text-3xl">A fundação do Taikiken</h2>
             <p>
-              Ao retornar ao Japão, Sawai Sensei fundou o Taikiken, que significa “Punho da Grande
+              Ao retornar ao Japão, Sawai-Sensei fundou o Taikiken, que significa “Punho da Grande
               Energia”. Ele procurou combinar o conhecimento adquirido tanto no Japão como na China
               para criar um sistema de treino completo que atendesse não apenas à defesa pessoal, mas
               também ao bem-estar físico e mental.
             </p>
             <p>
-              O Taikiken rapidamente ganhou adeptos no Japão. Sawai Sensei dedicou sua vida ao
+              O Taikiken rapidamente ganhou adeptos no Japão. Sawai-Sensei dedicou sua vida ao
               desenvolvimento e disseminação do Taikiken, treinando numerosos discípulos e
               instrutores. Sua influência continua na comunidade de artes marciais e naqueles que
               buscam um caminho de crescimento pessoal, equilíbrio e harmonia.

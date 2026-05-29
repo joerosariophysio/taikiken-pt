@@ -5,16 +5,16 @@ import { Reveal } from '@/components/ornaments'
 export const metadata: Metadata = {
   title: 'Vídeos',
   description:
-    'Demonstrações de Toishou (Pushing Hands) e Menarachi Kumite pelo Takagi Sensei — escola Shiseijuku.',
+    'Demonstrações de Toishou (Pushing Hands) e Menarachi Kumite pelo Takagi-Sensei — escola Shiseijuku.',
 }
 
 type Video = { id: string; titulo: string }
 
 const VIDEOS: Video[] = [
-  { id: 'kVYwYYtBIQI', titulo: 'Takagi Sensei demonstrando Toishou (Pushing Hands)' },
-  { id: 'RU1BFuocvMA', titulo: 'Takagi Sensei demonstrando Menarachi Kumite (luta com mãos abertas, “brincadeira de tigre”)' },
-  { id: 'Icyj8W5uxUU', titulo: 'Takagi Sensei demonstrando Menarachi Kumite' },
-  { id: '0d4mM9PYg0g', titulo: 'Takagi Sensei demonstrando Menarachi Kumite' },
+  { id: 'kVYwYYtBIQI', titulo: 'Takagi-Sensei demonstrando Toishou (Pushing Hands)' },
+  { id: 'RU1BFuocvMA', titulo: 'Takagi-Sensei demonstrando Menarachi Kumite (luta com mãos abertas, “brincadeira de tigre”)' },
+  { id: 'Icyj8W5uxUU', titulo: 'Takagi-Sensei demonstrando Menarachi Kumite' },
+  { id: '0d4mM9PYg0g', titulo: 'Takagi-Sensei demonstrando Menarachi Kumite' },
 ]
 
 export default function VideosPage() {
@@ -25,7 +25,7 @@ export default function VideosPage() {
         hanko="動"
         eyebrow="Movimento"
         title="Vídeos"
-        subtitle="Demonstrações de Toishou e Menarachi Kumite pelo Takagi Sensei — escola Shiseijuku."
+        subtitle="Demonstrações de Toishou e Menarachi Kumite pelo Takagi-Sensei — escola Shiseijuku."
       />
 
       <div className="container max-w-5xl py-20 md:py-24">

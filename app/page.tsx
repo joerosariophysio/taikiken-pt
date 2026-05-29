@@ -167,7 +167,7 @@ export default function HomePage() {
                 O fluxo do Ki, do combate à saúde
               </h2>
               <p className="max-w-prose text-lg leading-relaxed text-white/75">
-                Sawai Sensei criou o Taikiken — “Punho da Grande Energia” — combinando o que aprendeu
+                Sawai-Sensei criou o Taikiken — “Punho da Grande Energia” — combinando o que aprendeu
                 no Japão e na China. Não é qigong de salão nem mística: é trabalho real de postura,
                 respiração e intenção, que serve tanto para o Kumite quanto para uma saúde de ferro.
               </p>
@@ -192,7 +192,7 @@ export default function HomePage() {
                 href="/o-que-e"
                 kanji="意"
                 title="O que é"
-                description="História, princípios e a linhagem Sawai → Wang Xiangzhai → Fukushima."
+                description="História, princípios e a linhagem Sifu Wang Xiangzhai → Sawai-Sensei → Fukushima-Sensei."
               />
             </Reveal>
             <Reveal delay={120}>
@@ -200,7 +200,7 @@ export default function HomePage() {
                 href="/mestres"
                 kanji="師"
                 title="Mestres"
-                description="Sawai, Takagi, Fukushima e Joe Rosario-Sensei — a linhagem viva do Taikiken."
+                description="Sawai-Sensei, Takagi-Sensei, Fukushima-Sensei e Joe Rosario-Sensei — a linhagem viva do Taikiken."
               />
             </Reveal>
             <Reveal delay={240}>
@@ -208,7 +208,7 @@ export default function HomePage() {
                 href="/videos"
                 kanji="動"
                 title="Vídeos"
-                description="Demonstrações de Toishou e Menarachi Kumite por Takagi Sensei."
+                description="Demonstrações de Toishou e Menarachi Kumite por Takagi-Sensei."
               />
             </Reveal>
           </div>
